@@ -61,7 +61,17 @@
             @click="closeLightbox"
             aria-label="Закрыть"
           >
-            <Icon name="ph:x-bold" size="22" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 256 256"
+              width="22"
+              height="22"
+            >
+              <path
+                fill="#ffffff"
+                d="M208.49 191.51a12 12 0 0 1-17 17L128 145l-63.51 63.49a12 12 0 0 1-17-17L111 128L47.51 64.49a12 12 0 0 1 17-17L128 111l63.51-63.52a12 12 0 0 1 17 17L145 128Z"
+              />
+            </svg>
           </button>
 
           <button
@@ -70,7 +80,17 @@
             aria-label="Предыдущее фото"
             :disabled="lightboxIndex === 0"
           >
-            <Icon name="ph:arrow-left-bold" size="22" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 256 256"
+              width="22"
+              height="22"
+            >
+              <path
+                fill="#fff"
+                d="M228 128a12 12 0 0 1-12 12H69l51.52 51.51a12 12 0 0 1-17 17l-72-72a12 12 0 0 1 0-17l72-72a12 12 0 0 1 17 17L69 116h147a12 12 0 0 1 12 12"
+              />
+            </svg>
           </button>
 
           <Transition :name="transitionDir" mode="out-in">
@@ -88,7 +108,17 @@
             aria-label="Следующее фото"
             :disabled="lightboxIndex === items.length - 1"
           >
-            <Icon name="ph:arrow-right-bold" size="22" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 256 256"
+              width="22"
+              height="22"
+            >
+              <path
+                fill="#fff"
+                d="m224.49 136.49l-72 72a12 12 0 0 1-17-17L187 140H40a12 12 0 0 1 0-24h147l-51.49-51.52a12 12 0 0 1 17-17l72 72a12 12 0 0 1-.02 17.01"
+              />
+            </svg>
           </button>
 
           <div class="lightbox-counter">
@@ -121,6 +151,7 @@ const rawItems = [
   { src: "/images/gallery-8.jpg", alt: "Предкомнатный коридор" },
   { src: "/images/gallery-9.jpg", alt: "Номер 4-х местный" },
   { src: "/images/gallery-10.jpg", alt: "Коридор" },
+  { src: "/images/gallery-11.jpg", alt: "Кухня и столовая" },
 ];
 
 const items = reactive<GalleryItem[]>(
