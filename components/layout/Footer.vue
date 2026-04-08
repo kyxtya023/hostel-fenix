@@ -6,7 +6,23 @@
           <Icon name="ph:fire-fill" size="24" class="footer-logo-icon" />
           <span>Феникс</span>
         </div>
-        <p class="footer-tagline">Доступное жильё рядом с Москвой — для тех, кто ценит комфорт и экономию.</p>
+        <p class="footer-tagline">
+          Доступное жильё рядом с Москвой — для тех, кто ценит комфорт и
+          экономию.
+        </p>
+        <div style="margin-top: 2rem;">
+          <p class="footer-col-title" style="margin-bottom: 1rem;">Аккредитация</p>
+          <p class="footer-tagline">
+            Объект прошел государственную аккредитацию
+          </p>
+          <p class="footer-tagline">Номер реестровой записи:</p>
+          <a
+            class="footer-col-title"
+            href="https://tourism.fsa.gov.ru/ru/resorts/hotels/41c7abf0-c607-11ef-92da-95e981a0ea6c/about-resort"
+            target="_blank"
+            >С502024005724</a
+          >
+        </div>
       </div>
 
       <div class="footer-links">
@@ -14,7 +30,9 @@
           <p class="footer-col-title">Навигация</p>
           <ul>
             <li v-for="item in navItems" :key="item.href">
-              <a :href="item.href" @click.prevent="scrollTo(item.href)">{{ item.label }}</a>
+              <a :href="item.href" @click.prevent="scrollTo(item.href)">{{
+                item.label
+              }}</a>
             </li>
           </ul>
         </div>
@@ -22,7 +40,12 @@
           <p class="footer-col-title">Контакты</p>
           <ul>
             <li><a href="tel:+79804107614">+7 (980) 410-76-14</a></li>
-            <li><span class="footer-text">Московская область, Мытищи, Липкинское шоссе, 2-й километр, посёлок Вешки, вл1с2</span></li>
+            <li>
+              <span class="footer-text"
+                >Московская область, Мытищи, Липкинское шоссе, 2-й километр,
+                посёлок Вешки, вл1с2</span
+              >
+            </li>
             <li><span class="footer-text">Работаем 24/7</span></li>
           </ul>
         </div>
@@ -31,8 +54,11 @@
 
     <div class="footer-bottom">
       <div class="container footer-bottom-inner">
-        <p class="footer-copy">&copy; {{ new Date().getFullYear() }} Хостел «Феникс». Все права защищены.</p>
-        
+        <p class="footer-copy">
+          &copy; {{ new Date().getFullYear() }} Хостел «Феникс». Все права
+          защищены.
+        </p>
+
         <div class="developer-credit">
           <span class="developer-trigger">
             Разработка сайта
@@ -41,11 +67,21 @@
           <div class="developer-tooltip">
             <p class="tooltip-title">Связаться с разработчиком</p>
             <div class="tooltip-links">
-              <a href="https://vk.com/amberlock" target="_blank" rel="noopener noreferrer" class="tooltip-link">
+              <a
+                href="https://vk.com/amberlock"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="tooltip-link"
+              >
                 <Icon name="akar-icons:vk-fill" size="18" />
                 <span>ВКонтакте</span>
               </a>
-              <a href="https://t.me/Uonu9l" target="_blank" rel="noopener noreferrer" class="tooltip-link">
+              <a
+                href="https://t.me/Uonu9l"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="tooltip-link"
+              >
                 <Icon name="ph:telegram-logo-fill" size="18" />
                 <span>Telegram</span>
               </a>
@@ -59,18 +95,18 @@
 
 <script setup lang="ts">
 const navItems = [
-  { href: '#about', label: 'О хостеле' },
-  { href: '#rooms', label: 'Номера' },
-  { href: '#prices', label: 'Цены' },
-  { href: '#location', label: 'Локация' },
-  { href: '#reviews', label: 'Отзывы' },
-  { href: '#faq', label: 'FAQ' },
-]
+  { href: "#about", label: "О хостеле" },
+  { href: "#rooms", label: "Номера" },
+  { href: "#prices", label: "Цены" },
+  { href: "#location", label: "Локация" },
+  { href: "#reviews", label: "Отзывы" },
+  { href: "#faq", label: "FAQ" },
+];
 
 const scrollTo = (href: string) => {
-  const el = document.querySelector(href)
-  if (el) el.scrollIntoView({ behavior: 'smooth' })
-}
+  const el = document.querySelector(href);
+  if (el) el.scrollIntoView({ behavior: "smooth" });
+};
 </script>
 
 <style scoped>
@@ -98,14 +134,16 @@ const scrollTo = (href: string) => {
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 800;
   font-size: 2.2rem;
   color: var(--text);
   margin-bottom: 1.6rem;
 }
 
-.footer-logo-icon { color: var(--accent); }
+.footer-logo-icon {
+  color: var(--accent);
+}
 
 .footer-tagline {
   font-size: 1.5rem;
@@ -122,7 +160,7 @@ const scrollTo = (href: string) => {
 
 @media (max-width: 360px) {
   .footer-links {
-  grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -148,7 +186,9 @@ const scrollTo = (href: string) => {
   transition: color var(--transition);
 }
 
-.footer-col a:hover { color: var(--accent); }
+.footer-col a:hover {
+  color: var(--accent);
+}
 
 .footer-bottom {
   border-top: 1px solid var(--border);
@@ -218,7 +258,9 @@ const scrollTo = (href: string) => {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 1.6rem;
-  box-shadow: var(--shadow-lg), 0 0 30px rgba(255, 106, 0, 0.1);
+  box-shadow:
+    var(--shadow-lg),
+    0 0 30px rgba(255, 106, 0, 0.1);
   opacity: 0;
   visibility: hidden;
   transform: translateY(10px);
@@ -227,7 +269,7 @@ const scrollTo = (href: string) => {
 }
 
 .developer-tooltip::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -8px;
   right: 2rem;
@@ -290,7 +332,7 @@ const scrollTo = (href: string) => {
     right: -1rem;
     min-width: 20rem;
   }
-  
+
   .developer-tooltip::after {
     right: 1.5rem;
   }

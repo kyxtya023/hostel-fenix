@@ -1,25 +1,25 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, createError, getResponseStatus, getQuery as getQuery$1, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/h3/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash, joinRelativeURL } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/ufo/dist/index.mjs';
-import destr from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/destr/dist/index.mjs';
-import { createHooks } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/node-mock-http/dist/index.mjs';
-import { klona } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/defu/dist/defu.mjs';
-import { snakeCase } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/scule/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/radix3/dist/index.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, appendResponseHeader, getRequestURL, getResponseHeader, removeResponseHeader, createError, getResponseStatus, getQuery as getQuery$1, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/h3/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, decodePath, withLeadingSlash, withoutTrailingSlash, joinRelativeURL } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/ufo/dist/index.mjs';
+import destr from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/destr/dist/index.mjs';
+import { createHooks } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/node-mock-http/dist/index.mjs';
+import { klona } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/defu/dist/defu.mjs';
+import { snakeCase } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/scule/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/radix3/dist/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve, basename } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/pathe/dist/index.mjs';
-import { getIcons } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/@iconify/utils/lib/index.mjs';
-import { digest, hash as hash$1 } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/ohash/dist/index.mjs';
-import { consola } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/consola/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unstorage/drivers/fs.mjs';
-import file_58_47_47_47C_58_47Users_47_37D0_3798_37D0_37BB_37D1_378C_37D1_378F_47Desktop_47b_1zotQsZ7Tum_451774406895089_47node_modules_47_64nuxt_47nitro_45server_47dist_47runtime_47utils_47cache_45driver_46js from 'file:///C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/@nuxt/nitro-server/dist/runtime/utils/cache-driver.js';
-import unstorage_47drivers_47fs_45lite from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unstorage/drivers/fs-lite.mjs';
+import { dirname, resolve, basename } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/pathe/dist/index.mjs';
+import { getIcons } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/@iconify/utils/lib/index.mjs';
+import { digest, hash as hash$1 } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/ohash/dist/index.mjs';
+import { consola } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/consola/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/unstorage/drivers/fs.mjs';
+import file_58_47_47_47D_58_47_37D0_37A5_37D0_37BE_37D1_3781_37D1_3782_37D0_37B5_37D0_37BB_3720_37D0_37A4_37D0_37B5_37D0_37BD_37D0_37B8_37D0_37BA_37D1_3781_47node_modules_47_64nuxt_47nitro_45server_47dist_47runtime_47utils_47cache_45driver_46js from 'file:///D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/@nuxt/nitro-server/dist/runtime/utils/cache-driver.js';
+import unstorage_47drivers_47fs_45lite from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/unstorage/drivers/fs-lite.mjs';
 
-const serverAssets = [{"baseName":"server","dir":"C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"D:/Хостел Феникс/server/assets"}];
 
 const assets$1 = createStorage();
 
@@ -31,12 +31,12 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets$1);
 
-storage.mount('internal:nuxt:prerender', file_58_47_47_47C_58_47Users_47_37D0_3798_37D0_37BB_37D1_378C_37D1_378F_47Desktop_47b_1zotQsZ7Tum_451774406895089_47node_modules_47_64nuxt_47nitro_45server_47dist_47runtime_47utils_47cache_45driver_46js({"driver":"file:///C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/@nuxt/nitro-server/dist/runtime/utils/cache-driver.js","base":"C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/.nuxt/cache/nitro/prerender"}));
+storage.mount('internal:nuxt:prerender', file_58_47_47_47D_58_47_37D0_37A5_37D0_37BE_37D1_3781_37D1_3782_37D0_37B5_37D0_37BB_3720_37D0_37A4_37D0_37B5_37D0_37BD_37D0_37B8_37D0_37BA_37D1_3781_47node_modules_47_64nuxt_47nitro_45server_47dist_47runtime_47utils_47cache_45driver_46js({"driver":"file:///D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/@nuxt/nitro-server/dist/runtime/utils/cache-driver.js","base":"D:/Хостел Феникс/.nuxt/cache/nitro/prerender"}));
 storage.mount('data', unstorage_47drivers_47fs_45lite({"driver":"fsLite","base":"./.data/kv"}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089","watchOptions":{"ignored":[null]}}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/server","watchOptions":{"ignored":[null]}}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/.nuxt"}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/.nuxt/cache"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:/Хостел Феникс","watchOptions":{"ignored":[null]}}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"D:/Хостел Феникс/server","watchOptions":{"ignored":[null]}}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:/Хостел Феникс/.nuxt"}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"D:/Хостел Феникс/.nuxt/cache"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -803,7 +803,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "b0a0f727-d9ae-48ee-aeb0-5328cd4d5677",
+    "buildId": "6c3870f5-e4c5-4e6d-b841-508b078874a6",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -1144,14 +1144,14 @@ async function errorHandler(error, event) {
 
 const script = "\"use strict\";(()=>{const t=window,e=document.documentElement,c=[\"dark\",\"light\"],n=getStorageValue(\"localStorage\",\"fenix-theme\")||\"dark\";let i=n===\"system\"?u():n;const r=e.getAttribute(\"data-color-mode-forced\");r&&(i=r),l(i),t[\"__NUXT_COLOR_MODE__\"]={preference:n,value:i,getColorScheme:u,addColorScheme:l,removeColorScheme:d};function l(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.add(s):e.className+=\" \"+s,a&&e.setAttribute(\"data-\"+a,o)}function d(o){const s=\"\"+o+\"\",a=\"\";e.classList?e.classList.remove(s):e.className=e.className.replace(new RegExp(s,\"g\"),\"\"),a&&e.removeAttribute(\"data-\"+a)}function f(o){return t.matchMedia(\"(prefers-color-scheme\"+o+\")\")}function u(){if(t.matchMedia&&f(\"\").media!==\"not all\"){for(const o of c)if(f(\":\"+o).matches)return o}return\"dark\"}})();function getStorageValue(t,e){switch(t){case\"localStorage\":return window.localStorage.getItem(e);case\"sessionStorage\":return window.sessionStorage.getItem(e);case\"cookie\":return getCookie(e);default:return null}}function getCookie(t){const c=(\"; \"+window.document.cookie).split(\"; \"+t+\"=\");if(c.length===2)return c.pop()?.split(\";\").shift()}";
 
-const _mwTJumzaAmxdBOW9HtMLw8zbG01SY_NqZ4wrRnJZwWE = (function(nitro) {
+const _StvLWsTDBue6W8ZM26QqPWUrLZqfetfcLNCpJf9awro = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
 const plugins = [
-  _mwTJumzaAmxdBOW9HtMLw8zbG01SY_NqZ4wrRnJZwWE
+  _StvLWsTDBue6W8ZM26QqPWUrLZqfetfcLNCpJf9awro
 ];
 
 const assets = {};
@@ -1179,7 +1179,7 @@ function getAsset (id) {
 
 const METHODS = /* @__PURE__ */ new Set(["HEAD", "GET"]);
 const EncodingMap = { gzip: ".gz", br: ".br" };
-const _BHfWjh = eventHandler((event) => {
+const __2kG61 = eventHandler((event) => {
   if (event.method && !METHODS.has(event.method)) {
     return;
   }
@@ -1306,7 +1306,7 @@ const collections = {
 };
 
 const DEFAULT_ENDPOINT = "https://api.iconify.design";
-const _NprTvj = defineCachedEventHandler(async (event) => {
+const _f2oKXR = defineCachedEventHandler(async (event) => {
   const url = getRequestURL(event);
   if (!url)
     return createError({ status: 400, message: "Invalid icon request" });
@@ -1356,13 +1356,13 @@ const _NprTvj = defineCachedEventHandler(async (event) => {
   // 1 week
 });
 
-const _lazy_8UHFRC = () => import('./renderer.mjs').then(function (n) { return n.r; });
+const _lazy_nqbvdo = () => import('./renderer.mjs').then(function (n) { return n.r; });
 
 const handlers = [
-  { route: '', handler: _BHfWjh, lazy: false, middleware: true, method: undefined },
+  { route: '', handler: __2kG61, lazy: false, middleware: true, method: undefined },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
-  { route: '/api/_nuxt_icon/:collection', handler: _NprTvj, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_8UHFRC, lazy: true, middleware: false, method: undefined }
+  { route: '/api/_nuxt_icon/:collection', handler: _f2oKXR, lazy: false, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_nqbvdo, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

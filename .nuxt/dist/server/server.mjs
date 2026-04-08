@@ -1,18 +1,18 @@
 import { hasInjectionContext, getCurrentInstance, shallowReactive, reactive, effectScope, getCurrentScope, inject, toRef, shallowRef, isReadonly, isRef, isShallow, isReactive, toRaw, defineAsyncComponent, ref, defineComponent, createElementBlock, computed, unref, h, Suspense, nextTick, mergeProps, provide, Fragment, withCtx, createVNode, useSSRContext, onServerPrefetch, cloneVNode, toValue, onErrorCaptured, resolveDynamicComponent, createApp } from "vue";
-import { $fetch as $fetch$1 } from "C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/ofetch/dist/node.mjs";
+import { $fetch as $fetch$1 } from "D:/Хостел Феникс/node_modules/ofetch/dist/node.mjs";
 import { baseURL } from "#internal/nuxt/paths";
-import { createHooks } from "C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/hookable/dist/index.mjs";
-import { getContext, executeAsync } from "C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unctx/dist/index.mjs";
-import { sanitizeStatusCode, createError as createError$1, appendHeader } from "C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/h3/dist/index.mjs";
+import { createHooks } from "D:/Хостел Феникс/node_modules/hookable/dist/index.mjs";
+import { getContext, executeAsync } from "D:/Хостел Феникс/node_modules/unctx/dist/index.mjs";
+import { sanitizeStatusCode, createError as createError$1, appendHeader } from "D:/Хостел Феникс/node_modules/h3/dist/index.mjs";
 import { START_LOCATION, createMemoryHistory, createRouter, useRoute as useRoute$1, RouterView } from "vue-router";
-import { defu, defuFn } from "C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/defu/dist/defu.mjs";
-import { hasProtocol, joinURL, withQuery, parseURL, encodePath, decodePath } from "C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/ufo/dist/index.mjs";
-import { useHead as useHead$1, headSymbol } from "C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/@unhead/vue/dist/index.mjs";
+import { defu, defuFn } from "D:/Хостел Феникс/node_modules/defu/dist/defu.mjs";
+import { hasProtocol, joinURL, withQuery, parseURL, encodePath, decodePath } from "D:/Хостел Феникс/node_modules/ufo/dist/index.mjs";
+import { useHead as useHead$1, headSymbol } from "D:/Хостел Феникс/node_modules/@unhead/vue/dist/index.mjs";
 import { _api, addAPIProvider, setCustomIconsLoader, getIcon, loadIcon as loadIcon$1, Icon } from "@iconify/vue";
-import { klona } from "C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/klona/dist/index.mjs";
+import { klona } from "D:/Хостел Феникс/node_modules/klona/dist/index.mjs";
 import { ssrRenderComponent, ssrRenderAttrs, ssrInterpolate, ssrRenderSuspense, ssrRenderVNode } from "vue/server-renderer";
 import { getIconCSS } from "@iconify/utils/lib/css/icon";
-import { debounce } from "C:/Users/Илья/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/perfect-debounce/dist/index.mjs";
+import { debounce } from "D:/Хостел Феникс/node_modules/perfect-debounce/dist/index.mjs";
 if (!globalThis.$fetch) {
   globalThis.$fetch = $fetch$1.create({
     baseURL: baseURL()
@@ -403,7 +403,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-BvG1Cr3x.js")
+    component: () => import("./_nuxt/index-BpeRV2H6.js")
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -1153,7 +1153,7 @@ const ServerPlaceholder = defineComponent({
   }
 });
 const layouts = {
-  default: defineAsyncComponent(() => import("./_nuxt/default-C2GAF0Oi.js").then((m) => m.default || m))
+  default: defineAsyncComponent(() => import("./_nuxt/default-CCO2yf3a.js").then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;
 const LayoutLoader = defineComponent({

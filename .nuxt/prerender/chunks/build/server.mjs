@@ -1,37 +1,37 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineComponent, computed, h, toRef, isRef, onServerPrefetch, hasInjectionContext, inject, getCurrentInstance, toValue, ref, shallowRef, nextTick, unref, defineAsyncComponent, createElementBlock, provide, shallowReactive, Suspense, Fragment, cloneVNode, useSSRContext, createApp, mergeProps, onErrorCaptured, createVNode, resolveDynamicComponent, reactive, effectScope, getCurrentScope, withCtx, isReadonly, isShallow, isReactive, toRaw } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/vue/index.mjs';
-import { $fetch as $fetch$1 } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/ofetch/dist/node.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { defineComponent, computed, h, toRef, isRef, onServerPrefetch, hasInjectionContext, inject, getCurrentInstance, toValue, ref, shallowRef, nextTick, unref, defineAsyncComponent, createElementBlock, provide, shallowReactive, Suspense, Fragment, cloneVNode, useSSRContext, createApp, mergeProps, onErrorCaptured, createVNode, resolveDynamicComponent, reactive, effectScope, getCurrentScope, withCtx, isReadonly, isShallow, isReactive, toRaw } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/vue/index.mjs';
+import { $fetch as $fetch$1 } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/ofetch/dist/node.mjs';
 import { e as baseURL } from '../_/nitro.mjs';
-import { createHooks } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/hookable/dist/index.mjs';
-import { getContext, executeAsync } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unctx/dist/index.mjs';
-import { createError as createError$1, appendHeader, sanitizeStatusCode } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/h3/dist/index.mjs';
-import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/vue-router/vue-router.node.mjs';
-import { defuFn, defu } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/defu/dist/defu.mjs';
-import { joinURL, hasProtocol, withQuery, parseURL, encodePath, decodePath } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/ufo/dist/index.mjs';
-import { Icon, getIcon, loadIcon as loadIcon$1, _api, addAPIProvider, setCustomIconsLoader } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/@iconify/vue/dist/iconify.mjs';
-import { klona } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/klona/dist/index.mjs';
-import { ssrRenderAttrs, ssrRenderComponent, ssrInterpolate, ssrRenderSuspense, ssrRenderVNode } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/vue/server-renderer/index.mjs';
-import { getIconCSS } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/@iconify/utils/lib/css/icon.mjs';
-import { debounce } from 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/perfect-debounce/dist/index.mjs';
+import { createHooks } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/hookable/dist/index.mjs';
+import { getContext, executeAsync } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/unctx/dist/index.mjs';
+import { createError as createError$1, appendHeader, sanitizeStatusCode } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/h3/dist/index.mjs';
+import { useRoute as useRoute$1, RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/vue-router/vue-router.node.mjs';
+import { defuFn, defu } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/defu/dist/defu.mjs';
+import { joinURL, hasProtocol, withQuery, parseURL, encodePath, decodePath } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/ufo/dist/index.mjs';
+import { Icon, getIcon, loadIcon as loadIcon$1, _api, addAPIProvider, setCustomIconsLoader } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/@iconify/vue/dist/iconify.mjs';
+import { klona } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/klona/dist/index.mjs';
+import { ssrRenderAttrs, ssrRenderComponent, ssrInterpolate, ssrRenderSuspense, ssrRenderVNode } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/vue/server-renderer/index.mjs';
+import { getIconCSS } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/@iconify/utils/lib/css/icon.mjs';
+import { debounce } from 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/perfect-debounce/dist/index.mjs';
 import { u as useHead$1, h as headSymbol } from '../_/renderer.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/destr/dist/index.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/node-mock-http/dist/index.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/scule/dist/index.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/radix3/dist/index.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/destr/dist/index.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/node-mock-http/dist/index.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/scule/dist/index.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/radix3/dist/index.mjs';
 import 'node:fs';
 import 'node:url';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/pathe/dist/index.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/@iconify/utils/lib/index.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/ohash/dist/index.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/consola/dist/index.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unstorage/dist/index.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unstorage/drivers/fs.mjs';
-import 'file:///C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/@nuxt/nitro-server/dist/runtime/utils/cache-driver.js';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unstorage/drivers/fs-lite.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unhead/dist/server.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/devalue/index.js';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unhead/dist/utils.mjs';
-import 'file://C:/Users/%D0%98%D0%BB%D1%8C%D1%8F/Desktop/b_1zotQsZ7Tum-1774406895089/node_modules/unhead/dist/plugins.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/pathe/dist/index.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/@iconify/utils/lib/index.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/ohash/dist/index.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/consola/dist/index.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/unstorage/dist/index.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/unstorage/drivers/fs.mjs';
+import 'file:///D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/@nuxt/nitro-server/dist/runtime/utils/cache-driver.js';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/unstorage/drivers/fs-lite.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/unhead/dist/server.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/devalue/index.js';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/unhead/dist/utils.mjs';
+import 'file://D:/%D0%A5%D0%BE%D1%81%D1%82%D0%B5%D0%BB%20%D0%A4%D0%B5%D0%BD%D0%B8%D0%BA%D1%81/node_modules/unhead/dist/plugins.mjs';
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = $fetch$1.create({
@@ -423,7 +423,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-BvG1Cr3x.mjs')
+    component: () => import('./index-BpeRV2H6.mjs')
   }
 ];
 const _wrapInTransition = (props, children) => {
@@ -1166,7 +1166,7 @@ const ServerPlaceholder = defineComponent({
   }
 });
 const layouts = {
-  default: defineAsyncComponent(() => import('./default-C2GAF0Oi.mjs').then((m) => m.default || m))
+  default: defineAsyncComponent(() => import('./default-CCO2yf3a.mjs').then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;
 const LayoutLoader = defineComponent({
