@@ -403,7 +403,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import("./_nuxt/index-BpeRV2H6.js")
+    component: () => import("./_nuxt/index-BXOpbFPW.js")
   }
 ];
 const _wrapInTransition = (props, children) => {

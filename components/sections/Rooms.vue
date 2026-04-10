@@ -65,7 +65,8 @@
           </div>
 
           <a
-            href="tel:+79804107614"
+            href="https://ostrovok.ru/hotel/russia/moscow/mid13859187/feniks_hostel_5"
+            target="_blank"
             class="room-cta"
             :class="{ 'cta-featured': room.featured }"
           >
