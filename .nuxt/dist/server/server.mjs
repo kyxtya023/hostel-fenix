@@ -1153,7 +1153,7 @@ const ServerPlaceholder = defineComponent({
   }
 });
 const layouts = {
-  default: defineAsyncComponent(() => import("./_nuxt/default-CCO2yf3a.js").then((m) => m.default || m))
+  default: defineAsyncComponent(() => import("./_nuxt/default-DE01fdg4.js").then((m) => m.default || m))
 };
 const routeRulesMatcher = _routeRulesMatcher;
 const LayoutLoader = defineComponent({

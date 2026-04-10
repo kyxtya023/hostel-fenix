@@ -69,7 +69,6 @@ const menuOpen = ref(false)
 const navItems = [
   { href: '#about', label: 'О нас' },
   { href: '#rooms', label: 'Номера' },
-  { href: '#prices', label: 'Цены' },
   { href: '#location', label: 'Локация' },
   { href: '#reviews', label: 'Отзывы' },
   { href: '#contacts', label: 'Контакты' },

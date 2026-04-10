@@ -1,6 +1,6 @@
 /// <reference types="@nuxt/icon" />
-/// <reference types="@nuxtjs/color-mode" />
 /// <reference types="@nuxt/telemetry" />
+/// <reference types="@nuxtjs/color-mode" />
 /// <reference path="types/nitro-layouts.d.ts" />
 /// <reference path="types/builder-env.d.ts" />
 /// <reference types="nuxt" />

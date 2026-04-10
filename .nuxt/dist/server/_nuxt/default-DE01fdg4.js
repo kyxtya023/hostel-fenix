@@ -67,7 +67,6 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
     const navItems = [
       { href: "#about", label: "О нас" },
       { href: "#rooms", label: "Номера" },
-      { href: "#prices", label: "Цены" },
       { href: "#location", label: "Локация" },
       { href: "#reviews", label: "Отзывы" },
       { href: "#contacts", label: "Контакты" }
@@ -76,27 +75,27 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
       const _component_Icon = __nuxt_component_0;
       _push(`<header${ssrRenderAttrs(mergeProps({
         class: ["header", { scrolled: unref(isScrolled), "menu-open": unref(menuOpen) }]
-      }, _attrs))} data-v-0375ea8a><div class="container header-inner" data-v-0375ea8a><a href="#hero" class="logo" data-v-0375ea8a><span class="logo-icon" data-v-0375ea8a>`);
+      }, _attrs))} data-v-bfaaec89><div class="container header-inner" data-v-bfaaec89><a href="#hero" class="logo" data-v-bfaaec89><span class="logo-icon" data-v-bfaaec89>`);
       _push(ssrRenderComponent(_component_Icon, {
         name: "ph:fire-fill",
         size: "22"
       }, null, _parent));
-      _push(`</span><span class="logo-text" data-v-0375ea8a>Феникс</span></a><nav class="nav" aria-label="Основная навигация" data-v-0375ea8a><!--[-->`);
+      _push(`</span><span class="logo-text" data-v-bfaaec89>Феникс</span></a><nav class="nav" aria-label="Основная навигация" data-v-bfaaec89><!--[-->`);
       ssrRenderList(navItems, (item) => {
-        _push(`<a${ssrRenderAttr("href", item.href)} class="nav-link" data-v-0375ea8a>${ssrInterpolate(item.label)}</a>`);
+        _push(`<a${ssrRenderAttr("href", item.href)} class="nav-link" data-v-bfaaec89>${ssrInterpolate(item.label)}</a>`);
       });
-      _push(`<!--]--></nav><div class="header-actions" data-v-0375ea8a>`);
+      _push(`<!--]--></nav><div class="header-actions" data-v-bfaaec89>`);
       _push(ssrRenderComponent(ThemeToggle, null, null, _parent));
-      _push(`<a href="tel:+79804107614" class="btn-call" data-v-0375ea8a>`);
+      _push(`<a href="tel:+79804107614" class="btn-call" data-v-bfaaec89>`);
       _push(ssrRenderComponent(_component_Icon, {
         name: "ph:phone-fill",
         size: "16"
       }, null, _parent));
-      _push(`<span data-v-0375ea8a>Позвонить</span></a><button class="${ssrRenderClass([{ active: unref(menuOpen) }, "burger"])}"${ssrRenderAttr("aria-expanded", unref(menuOpen))} aria-label="Открыть меню" data-v-0375ea8a><span data-v-0375ea8a></span><span data-v-0375ea8a></span><span data-v-0375ea8a></span></button></div></div><div class="${ssrRenderClass([{ open: unref(menuOpen) }, "mobile-menu"])}" data-v-0375ea8a><nav class="mobile-nav" data-v-0375ea8a><!--[-->`);
+      _push(`<span data-v-bfaaec89>Позвонить</span></a><button class="${ssrRenderClass([{ active: unref(menuOpen) }, "burger"])}"${ssrRenderAttr("aria-expanded", unref(menuOpen))} aria-label="Открыть меню" data-v-bfaaec89><span data-v-bfaaec89></span><span data-v-bfaaec89></span><span data-v-bfaaec89></span></button></div></div><div class="${ssrRenderClass([{ open: unref(menuOpen) }, "mobile-menu"])}" data-v-bfaaec89><nav class="mobile-nav" data-v-bfaaec89><!--[-->`);
       ssrRenderList(navItems, (item) => {
-        _push(`<a${ssrRenderAttr("href", item.href)} class="mobile-nav-link" data-v-0375ea8a>${ssrInterpolate(item.label)}</a>`);
+        _push(`<a${ssrRenderAttr("href", item.href)} class="mobile-nav-link" data-v-bfaaec89>${ssrInterpolate(item.label)}</a>`);
       });
-      _push(`<!--]--></nav><a href="tel:+79804107614" class="mobile-call" data-v-0375ea8a>`);
+      _push(`<!--]--></nav><a href="tel:+79804107614" class="mobile-call" data-v-bfaaec89>`);
       _push(ssrRenderComponent(_component_Icon, {
         name: "ph:phone-fill",
         size: "18"
@@ -111,7 +110,7 @@ _sfc_main$3.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/layout/Header.vue");
   return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
-const AppHeader = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-0375ea8a"]]);
+const AppHeader = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-bfaaec89"]]);
 const _sfc_main$2 = /* @__PURE__ */ defineComponent({
   __name: "Footer",
   __ssrInlineRender: true,
@@ -216,4 +215,4 @@ const _default = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-4
 export {
   _default as default
 };
-//# sourceMappingURL=default-CCO2yf3a.js.map
+//# sourceMappingURL=default-DE01fdg4.js.map

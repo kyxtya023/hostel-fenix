@@ -87,7 +87,6 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
     const navItems = [
       { href: "#about", label: "\u041E \u043D\u0430\u0441" },
       { href: "#rooms", label: "\u041D\u043E\u043C\u0435\u0440\u0430" },
-      { href: "#prices", label: "\u0426\u0435\u043D\u044B" },
       { href: "#location", label: "\u041B\u043E\u043A\u0430\u0446\u0438\u044F" },
       { href: "#reviews", label: "\u041E\u0442\u0437\u044B\u0432\u044B" },
       { href: "#contacts", label: "\u041A\u043E\u043D\u0442\u0430\u043A\u0442\u044B" }
@@ -96,27 +95,27 @@ const _sfc_main$3 = /* @__PURE__ */ defineComponent({
       const _component_Icon = __nuxt_component_0;
       _push(`<header${ssrRenderAttrs(mergeProps({
         class: ["header", { scrolled: unref(isScrolled), "menu-open": unref(menuOpen) }]
-      }, _attrs))} data-v-0375ea8a><div class="container header-inner" data-v-0375ea8a><a href="#hero" class="logo" data-v-0375ea8a><span class="logo-icon" data-v-0375ea8a>`);
+      }, _attrs))} data-v-bfaaec89><div class="container header-inner" data-v-bfaaec89><a href="#hero" class="logo" data-v-bfaaec89><span class="logo-icon" data-v-bfaaec89>`);
       _push(ssrRenderComponent(_component_Icon, {
         name: "ph:fire-fill",
         size: "22"
       }, null, _parent));
-      _push(`</span><span class="logo-text" data-v-0375ea8a>\u0424\u0435\u043D\u0438\u043A\u0441</span></a><nav class="nav" aria-label="\u041E\u0441\u043D\u043E\u0432\u043D\u0430\u044F \u043D\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044F" data-v-0375ea8a><!--[-->`);
+      _push(`</span><span class="logo-text" data-v-bfaaec89>\u0424\u0435\u043D\u0438\u043A\u0441</span></a><nav class="nav" aria-label="\u041E\u0441\u043D\u043E\u0432\u043D\u0430\u044F \u043D\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044F" data-v-bfaaec89><!--[-->`);
       ssrRenderList(navItems, (item) => {
-        _push(`<a${ssrRenderAttr("href", item.href)} class="nav-link" data-v-0375ea8a>${ssrInterpolate(item.label)}</a>`);
+        _push(`<a${ssrRenderAttr("href", item.href)} class="nav-link" data-v-bfaaec89>${ssrInterpolate(item.label)}</a>`);
       });
-      _push(`<!--]--></nav><div class="header-actions" data-v-0375ea8a>`);
+      _push(`<!--]--></nav><div class="header-actions" data-v-bfaaec89>`);
       _push(ssrRenderComponent(ThemeToggle, null, null, _parent));
-      _push(`<a href="tel:+79804107614" class="btn-call" data-v-0375ea8a>`);
+      _push(`<a href="tel:+79804107614" class="btn-call" data-v-bfaaec89>`);
       _push(ssrRenderComponent(_component_Icon, {
         name: "ph:phone-fill",
         size: "16"
       }, null, _parent));
-      _push(`<span data-v-0375ea8a>\u041F\u043E\u0437\u0432\u043E\u043D\u0438\u0442\u044C</span></a><button class="${ssrRenderClass([{ active: unref(menuOpen) }, "burger"])}"${ssrRenderAttr("aria-expanded", unref(menuOpen))} aria-label="\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u043C\u0435\u043D\u044E" data-v-0375ea8a><span data-v-0375ea8a></span><span data-v-0375ea8a></span><span data-v-0375ea8a></span></button></div></div><div class="${ssrRenderClass([{ open: unref(menuOpen) }, "mobile-menu"])}" data-v-0375ea8a><nav class="mobile-nav" data-v-0375ea8a><!--[-->`);
+      _push(`<span data-v-bfaaec89>\u041F\u043E\u0437\u0432\u043E\u043D\u0438\u0442\u044C</span></a><button class="${ssrRenderClass([{ active: unref(menuOpen) }, "burger"])}"${ssrRenderAttr("aria-expanded", unref(menuOpen))} aria-label="\u041E\u0442\u043A\u0440\u044B\u0442\u044C \u043C\u0435\u043D\u044E" data-v-bfaaec89><span data-v-bfaaec89></span><span data-v-bfaaec89></span><span data-v-bfaaec89></span></button></div></div><div class="${ssrRenderClass([{ open: unref(menuOpen) }, "mobile-menu"])}" data-v-bfaaec89><nav class="mobile-nav" data-v-bfaaec89><!--[-->`);
       ssrRenderList(navItems, (item) => {
-        _push(`<a${ssrRenderAttr("href", item.href)} class="mobile-nav-link" data-v-0375ea8a>${ssrInterpolate(item.label)}</a>`);
+        _push(`<a${ssrRenderAttr("href", item.href)} class="mobile-nav-link" data-v-bfaaec89>${ssrInterpolate(item.label)}</a>`);
       });
-      _push(`<!--]--></nav><a href="tel:+79804107614" class="mobile-call" data-v-0375ea8a>`);
+      _push(`<!--]--></nav><a href="tel:+79804107614" class="mobile-call" data-v-bfaaec89>`);
       _push(ssrRenderComponent(_component_Icon, {
         name: "ph:phone-fill",
         size: "18"
@@ -131,7 +130,7 @@ _sfc_main$3.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/layout/Header.vue");
   return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
 };
-const AppHeader = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-0375ea8a"]]);
+const AppHeader = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["__scopeId", "data-v-bfaaec89"]]);
 const _sfc_main$2 = /* @__PURE__ */ defineComponent({
   __name: "Footer",
   __ssrInlineRender: true,
@@ -235,4 +234,4 @@ _sfc_main.setup = (props, ctx) => {
 const _default = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-4771a872"]]);
 
 export { _default as default };
-//# sourceMappingURL=default-CCO2yf3a.mjs.map
+//# sourceMappingURL=default-DE01fdg4.mjs.map
